@@ -1,0 +1,150 @@
+html{
+	scroll-behavior: smooth;
+}
+.tb-icon{
+	color: #D83030;
+}
+
+.new-navbar{
+	background-color: transparent;
+}
+
+.scrolled .new-navbar{
+	background-color:#082c44;
+}
+.scrolled .header_container{
+	box-shadow: 0px 10px 23px -10px rgba(0,0,0,0.6);
+-webkit-box-shadow: 0px 10px 23px -10px rgba(0,0,0,0.6);
+-moz-box-shadow: 0px 10px 23px -10px rgba(0,0,0,0.6);
+}
+
+.scrolled .header_content{height:80px}
+.main_nav li:hover a{color: #D83030 !important;}
+.scrolled .main_nav {margin-top: 10px;}
+.header_container .Post-Jobs:hover {background-color: #D83030; border-color: #D83030;}
+.header_container .Post-Jobs:hover a{color: white;}
+
+#about{
+	margin-top: 240px;
+	
+}
+.about-background{
+	background: #F8F8F8 !important;
+	border-radius: 20px;
+}
+.section-title h2{
+	color: #082c44;
+	font-size: 32px;
+}
+.section-title hr{
+	width: 235px;
+	margin-left: 0px;
+	border: 2px solid #082c44;
+	margin-bottom: 40px;
+	/*height: 105px;*/
+	color: #082c44;
+}
+#about p {
+	color: #082c44;
+	font-size: 18px;
+	line-height: 28px;
+	text-align: justify;
+	font-family: proxima nova;
+}
+
+#about .btn-about1{
+	border: 1px solid #D83030;
+	color: #D83030;
+	width: 100%;
+	font-size: 14px;
+	font-weight: 700;
+    line-height: 20px;
+    padding: 10px 22px;
+     height: 42px;
+    outline: none;
+}
+#about .btn-about1:hover{
+	box-shadow: 0px 0px 39px -8px rgba(216,48,48,0.75);
+-webkit-box-shadow: 0px 0px 39px -8px rgba(216,48,48,0.75);
+-moz-box-shadow: 0px 0px 39px -8px rgba(216,48,48,0.75);
+}
+#about .btn-about2{
+	background-color: #D83030;
+	border: 1px solid #D83030;
+	color: #ffffff;
+	width: 100%;
+	font-size: 14px;
+	font-weight: 700;
+    line-height: 20px;
+    padding: 10px 22px;
+     height: 42px;
+    outline: none;
+}
+#about .btn-about2:hover{
+	box-shadow: 0px 0px 39px -8px rgba(216,48,48,0.75);
+-webkit-box-shadow: 0px 0px 39px -8px rgba(216,48,48,0.75);
+-moz-box-shadow: 0px 0px 39px -8px rgba(216,48,48,0.75);
+}
+
+#about img {
+	margin-left: 30px;
+	width: 450px;
+}
+
+#tutorial{
+	background-color: #082c44;
+}
+#tutorial header {
+	margin-bottom: 70px;
+	margin-top: 50px;
+}
+#tutorial .box{
+	background: #ffffff;
+    border-radius: 30px;
+    padding: 50px 30px 46px;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 44px;
+    min-height: 250px;
+    max-height: 250px;
+}
+
+.box .box-number{
+	text-align: center;
+	position: absolute;
+    top: -15px;
+    width: 40px;
+    height: 40px;
+    background-color: #D83030;
+    text-align: center;
+    line-height: 31px;
+    color: #fff;
+    left: 10px;
+    font-size: 18px;
+    z-index: 2;
+}
+
+.box h3{
+	font-size: 18px;
+	font-weight: bolder;
+	color: #082c44;
+}
+
+.box p{
+	font-size: 16px;
+	color: #082c44;
+    line-height: 21px;
+}
+
+@media only screen and (min-width: 991px){
+	.top_bar_content{margin-top: 15px;}
+}
+
+@media only screen and (max-width: 991px){
+	#about{margin-top: 120px;}
+	#about img {
+		width: 300px;
+	}
+	/*#about img{margin-left: 0;}*/
+}
+
